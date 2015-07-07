@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <!--文字帶陰影的按鈕-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:shadowColor="#aa5"
+        android:shadowDx="5"
+        android:shadowDy="5"
+        android:shadowRadius="1"
+        android:text="文字帶陰影的按鈕"
+        android:textSize="12pt" />
+    <!--普通文字按鈕-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/red"
+        android:text="普通文字按鈕"
+        android:textSize="10pt" />
+    <!--帶文字的圖片按鈕-->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/button_selector"
+        android:text="帶文字的圖片按鈕"
+        android:textSize="11px" />
+
+</LinearLayout>
